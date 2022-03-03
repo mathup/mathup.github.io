@@ -1,0 +1,31 @@
+{
+  "name": "mathup.org",
+  "version": "0.0.1",
+  "description": "The source of mathup.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier -w .",
+    "lint": "markdownlint-cli2",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathup/mathup.org.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/mathup/mathup.org/issues"
+  },
+  "homepage": "https://github.com/mathup/mathup.org#readme",
+  "private": true,
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.4",
+    "markdownlint-cli": "^0.31.1",
+    "markdownlint-cli2": "^0.4.0",
+    "prettier": "^2.5.1"
+  }
+}
